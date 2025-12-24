@@ -18,18 +18,7 @@ As a seasoned Machine Learning Engineer at Ebuss, the task at hand is clear: dev
 
 In this fast-paced e-commerce landscape, staying ahead demands not just meeting but exceeding customer expectations. With a sentiment-driven approach to recommendations, Ebuss aims to elevate the shopping experience, fostering customer satisfaction and loyalty.
 
-Solution
-github link: https://github.com/ankurdhuriya/SentimentBasedProductRecommendation
-Built with
-Python 3.9.12
-scikit-learn 1.4.1.post1
-xgboost 2.0.3
-numpy 1.26.4
-nltk 3.8.1
-pandas 2.2.1
-Flask 3.0.2
-Bootstrap CDN 5.1.3
-Solution Approach
+
 The dataset and attribute descriptions are provided in the dataset folder for reference.
 Initial steps include Data Cleaning, Visualization, and Text Preprocessing (NLP) on the dataset. TF-IDF Vectorization is employed to convert textual data (review_title + review_text) into numerical vectors, measuring the relative importance of words across documents.
 Addressing the Class Imbalance Issue: SMOTE Oversampling technique is applied to balance the distribution of classes before model training.
